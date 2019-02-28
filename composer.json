@@ -1,0 +1,50 @@
+{
+    "name": "nolanle/laravel-installer",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fiotech Solutions",
+            "email": "nolanle@fiotech.io",
+            "homepage": "https://fiotech.io"
+        }
+    ],
+    "homepage": "https://github.com/nolanle/laravel-installer.git",
+    "keywords": ["Laravel", "Installer"],
+    "require": {
+        "ext-apache": "*",
+        "ext-mysqli": "*",
+        "illuminate/support": "~5",
+        "jackiedo/dotenv-editor": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0",
+        "pragmarx/version": "^0.2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "HolluwaTosin\\Installer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HolluwaTosin\\Installer\\Tests\\": "tests"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HolluwaTosin\\Installer\\InstallerServiceProvider"
+            ],
+            "aliases": {
+                "Installer": "HolluwaTosin\\Installer\\Facades\\Installer"
+            }
+        }
+    }
+}
