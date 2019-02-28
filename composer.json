@@ -12,8 +12,6 @@
     "homepage": "https://github.com/fiotech/laravel-installer.git",
     "keywords": ["Laravel", "Installer", "Fiotech"],
     "require": {
-        "ext-apache": "*",
-        "ext-mysqli": "*",
         "illuminate/support": "~5",
         "jackiedo/dotenv-editor": "^1.0"
     },
