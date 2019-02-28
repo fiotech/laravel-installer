@@ -1,6 +1,6 @@
 <?php
 
-namespace HolluwaTosin\Installer\Commands;
+namespace Fiotech\Installer\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;

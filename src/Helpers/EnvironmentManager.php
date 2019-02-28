@@ -1,6 +1,6 @@
 <?php
 
-namespace HolluwaTosin\Installer\Helpers;
+namespace Fiotech\Installer\Helpers;
 
 use Jackiedo\DotenvEditor\DotenvEditor;
 

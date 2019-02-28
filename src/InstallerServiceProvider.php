@@ -1,13 +1,13 @@
 <?php
 
-namespace HolluwaTosin\Installer;
+namespace Fiotech\Installer;
 
-use HolluwaTosin\Installer\Commands\FreshInstall;
-use HolluwaTosin\Installer\Middleware\CanInstall;
-use HolluwaTosin\Installer\Middleware\CanUpdate;
-use HolluwaTosin\Installer\Middleware\CanVerify;
-use HolluwaTosin\Installer\Middleware\ValidateSession;
-use HolluwaTosin\Installer\Middleware\Verification;
+use Fiotech\Installer\Commands\FreshInstall;
+use Fiotech\Installer\Middleware\CanInstall;
+use Fiotech\Installer\Middleware\CanUpdate;
+use Fiotech\Installer\Middleware\CanVerify;
+use Fiotech\Installer\Middleware\ValidateSession;
+use Fiotech\Installer\Middleware\Verification;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 

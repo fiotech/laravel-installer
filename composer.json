@@ -1,16 +1,16 @@
 {
-    "name": "nolanle/laravel-installer",
+    "name": "fiotech/laravel-installer",
     "description": ":description",
     "license": "MIT",
     "authors": [
         {
             "name": "Fiotech Solutions",
-            "email": "nolanle@fiotech.io",
-            "homepage": "https://fiotech.io"
+            "email": "support@fiotech.io",
+            "homepage": "https://fiotech.io/"
         }
     ],
-    "homepage": "https://github.com/nolanle/laravel-installer.git",
-    "keywords": ["Laravel", "Installer"],
+    "homepage": "https://github.com/fiotech/laravel-installer.git",
+    "keywords": ["Laravel", "Installer", "Fiotech"],
     "require": {
         "ext-apache": "*",
         "ext-mysqli": "*",
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "HolluwaTosin\\Installer\\": "src/"
+            "Fiotech\\Installer\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HolluwaTosin\\Installer\\Tests\\": "tests"
+            "Fiotech\\Installer\\Tests\\": "tests"
         },
         "files": [
             "src/Helpers/functions.php"
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HolluwaTosin\\Installer\\InstallerServiceProvider"
+                "Fiotech\\Installer\\InstallerServiceProvider"
             ],
             "aliases": {
-                "Installer": "HolluwaTosin\\Installer\\Facades\\Installer"
+                "Installer": "Fiotech\\Installer\\Facades\\Installer"
             }
         }
     }

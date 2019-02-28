@@ -1,9 +1,9 @@
 <?php
 
-namespace HolluwaTosin\Installer\Controllers;
+namespace Fiotech\Installer\Controllers;
 
-use HolluwaTosin\Installer\Helpers\Traits\MigrationsHelper;
-use HolluwaTosin\Installer\Installer;
+use Fiotech\Installer\Helpers\Traits\MigrationsHelper;
+use Fiotech\Installer\Installer;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;

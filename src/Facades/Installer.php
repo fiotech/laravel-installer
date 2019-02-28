@@ -1,6 +1,6 @@
 <?php
 
-namespace HolluwaTosin\Installer\Facades;
+namespace Fiotech\Installer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

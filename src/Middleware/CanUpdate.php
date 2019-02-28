@@ -1,9 +1,9 @@
 <?php
 
-namespace HolluwaTosin\Installer\Middleware;
+namespace Fiotech\Installer\Middleware;
 
 use Closure;
-use HolluwaTosin\Installer\Helpers\Traits\MigrationsHelper;
+use Fiotech\Installer\Helpers\Traits\MigrationsHelper;
 
 class CanUpdate
 {

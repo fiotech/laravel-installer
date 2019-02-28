@@ -1,6 +1,6 @@
 <?php
 
-namespace HolluwaTosin\Installer\Helpers\Traits;
+namespace Fiotech\Installer\Helpers\Traits;
 
 use Exception;
 use Illuminate\Database\SQLiteConnection;

@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require holluwatosin/installer
+$ composer require fiotech/laravel-installer
 ```
 
 ## Usage
@@ -37,21 +37,21 @@ If you discover any security related issues, please email hen[2Dhw instead 
 
 ## Credits
 
-- [HolluwaTosin360][link-author]
+- [Fiotech][link-author]
 - [All Contributors][link-contributors]
 
 ## License
 
 MIT. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/holluwatosin/installer.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/holluwatosin/installer.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/holluwatosin/installer/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/fiotech/laravel-installer.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/fiotech/laravel-installer.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/fiotech/laravel-installer/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/holluwatosin/installer
-[link-downloads]: https://packagist.org/packages/holluwatosin/installer
-[link-travis]: https://travis-ci.org/holluwatosin/installer
+[link-packagist]: https://packagist.org/packages/fiotech/laravel-installer
+[link-downloads]: https://packagist.org/packages/fiotech/laravel-installer
+[link-travis]: https://travis-ci.org/fiotech/laravel-installer
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/holluwatosin
+[link-author]: https://github.com/fiotech
 [link-contributors]: ../../contributors]

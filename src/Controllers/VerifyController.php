@@ -1,9 +1,9 @@
 <?php
 
-namespace HolluwaTosin\Installer\Controllers;
+namespace Fiotech\Installer\Controllers;
 
-use HolluwaTosin\Installer\Middleware\Verification;
-use HolluwaTosin\Installer\PurchaseDetails;
+use Fiotech\Installer\Middleware\Verification;
+use Fiotech\Installer\PurchaseDetails;
 use Illuminate\Routing\Controller;
 use Illuminate\Cache\Repository as Cache;
 use Illuminate\Http\Request;

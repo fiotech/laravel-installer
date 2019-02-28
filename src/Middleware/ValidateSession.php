@@ -1,9 +1,9 @@
 <?php
 
-namespace HolluwaTosin\Installer\Middleware;
+namespace Fiotech\Installer\Middleware;
 
 use Closure;
-use HolluwaTosin\Installer\PurchaseDetails;
+use Fiotech\Installer\PurchaseDetails;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Cache\Repository as Cache;

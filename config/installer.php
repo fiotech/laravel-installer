@@ -22,9 +22,9 @@ return [
     |--------------------------------------------------------------------------
     */
     'author' => [
-        'name' => 'HolluwaTosin360',
+        'name' => 'Fiotech',
 
-        'portfolio' => 'https://codecanyon.net/user/holluwatosin360/portfolio',
+        'portfolio' => 'https://codecanyon.net/user/fiotech/portfolio',
 
         'avatar' => 'http://oluwatosin.me/avatar.jpg',
     ],

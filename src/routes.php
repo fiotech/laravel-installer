@@ -3,9 +3,9 @@
  * ======================================================================================================
  * File Name: routes.php
  * ======================================================================================================
- * Author: HolluwaTosin360
+ * Author: Fiotech
  * ------------------------------------------------------------------------------------------------------
- * Portfolio: http://codecanyon.net/user/holluwatosin360
+ * Portfolio: http://codecanyon.net/user/fiotech
  * ------------------------------------------------------------------------------------------------------
  * Date & Time: 10/21/2018 (5:20 AM)
  * ------------------------------------------------------------------------------------------------------
@@ -18,7 +18,7 @@
  */
 
 Route::group([
-    'prefix' => 'installer', 'as' => 'Installer::', 'namespace' => 'HolluwaTosin\Installer\Controllers', 'middleware' => ['web']
+    'prefix' => 'installer', 'as' => 'Installer::', 'namespace' => 'Fiotech\Installer\Controllers', 'middleware' => ['web']
 ], function () {
 
     // Install

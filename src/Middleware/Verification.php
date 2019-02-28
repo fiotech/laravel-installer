@@ -3,9 +3,9 @@
  * ======================================================================================================
  * File Name: Verification.php
  * ======================================================================================================
- * Author: HolluwaTosin360
+ * Author: Fiotech
  * ------------------------------------------------------------------------------------------------------
- * Portfolio: http://codecanyon.net/user/holluwatosin360
+ * Portfolio: http://codecanyon.net/user/fiotech
  * ------------------------------------------------------------------------------------------------------
  * Date & Time: 10/20/2018 (10:15 PM)
  * ------------------------------------------------------------------------------------------------------
@@ -17,11 +17,11 @@
  * ------------------------------------------------------------------------------------------------------
  */
 
-namespace HolluwaTosin\Installer\Middleware;
+namespace Fiotech\Installer\Middleware;
 
 use Closure;
 use GuzzleHttp\Exception\ClientException;
-use HolluwaTosin\Installer\PurchaseDetails;
+use Fiotech\Installer\PurchaseDetails;
 use Illuminate\Cache\Repository as Cache;
 use Illuminate\Support\Facades\File;
 

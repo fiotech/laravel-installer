@@ -1,6 +1,6 @@
 <?php
 
-namespace HolluwaTosin\Installer;
+namespace Fiotech\Installer;
 
 use PragmaRX\Version\Package\Version;
 

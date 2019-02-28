@@ -1,19 +1,19 @@
 <?php
 
-namespace HolluwaTosin\Installer\Controllers;
+namespace Fiotech\Installer\Controllers;
 
 use App\Http\Controllers\Controller;
 
-use HolluwaTosin\Installer\Helpers\EnvironmentManager;
-use HolluwaTosin\Installer\Helpers\PermissionsChecker;
-use HolluwaTosin\Installer\Helpers\Traits\MigrationsHelper;
-use HolluwaTosin\Installer\Installer;
-use HolluwaTosin\Installer\Middleware\Verification;
-use HolluwaTosin\Installer\PurchaseDetails;
+use Fiotech\Installer\Helpers\RequirementsChecker;
+use Fiotech\Installer\Helpers\EnvironmentManager;
+use Fiotech\Installer\Helpers\PermissionsChecker;
+use Fiotech\Installer\Helpers\Traits\MigrationsHelper;
+use Fiotech\Installer\Installer;
+use Fiotech\Installer\Middleware\Verification;
+use Fiotech\Installer\PurchaseDetails;
 use Illuminate\Cache\Repository as Cache;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Session;
-use HolluwaTosin\Installer\Helpers\RequirementsChecker;
 use Validator;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
